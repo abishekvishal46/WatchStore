@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-header {
+    background-color: rgb(43, 42, 42);
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button .button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button .button:hover {
+    background-color: #ffd633;
+}
+/* Existing CSS styles (as provided in the previous example) */
+
+.hero-section {
+    background: url('./images/watchbg.jpg') center/cover no-repeat; /* Replace 'hero-image.jpg' with your actual image */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-content .button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .button:hover {
+    background-color: #ffd633;
+}
+/* Existing CSS styles (as provided in the previous examples) */
+
+.featured-products.dark-theme {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00; /* Highlight the price with a contrasting color */
+    margin-bottom: 15px;
+}
+
+.product-card .button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .button:hover {
+    background-color: #ffd633;
+}
+/* Existing CSS styles (as provided in the previous examples) */
+
+/* Existing CSS styles (as provided in the previous examples) */
+
+.usp-section.dark-theme {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.usp-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usp-item {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.usp-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.usp-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.usp-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Add more styles as needed */
+
+/* Existing CSS styles (as provided in the previous examples) */
+
+.about-us-section.dark-theme {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about-us-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+
+/* Existing CSS styles (as provided in the previous examples) */
+
+.testimonials-section.dark-theme {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.testimonials-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial-card p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .customer-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffcc00; /* Highlight the customer name with a contrasting color */
+}
+
+/* Add more styles as needed */
+
+/* Existing CSS styles (as provided in the previous examples) */
+
+.seller-options-button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.seller-options-button:hover {
+    background-color: #ffd633;
+}
